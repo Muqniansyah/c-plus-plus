@@ -1,0 +1,24 @@
+Anda sudah tahu bahwa C++ mendukung kondisi logika umum dari matematika:
+
+Kurang dari: a < b
+Kurang dari atau sama dengan: a <= b
+Lebih besar dari: a > b
+Lebih besar atau sama dengan: a >= b
+Sama dengan a == b
+Tidak Sama dengan: a != b
+Anda dapat menggunakan kondisi ini untuk melakukan tindakan yang berbeda untuk keputusan yang berbeda.
+
+C++ memiliki pernyataan kondisional berikut:
+
+Digunakan ifuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang ditentukan benar
+Digunakan elseuntuk menentukan blok kode yang akan dieksekusi, jika kondisi yang sama salah
+Digunakan else ifuntuk menentukan kondisi baru untuk diuji, jika kondisi pertama salah
+Digunakan switchuntuk menentukan banyak blok kode alternatif yang akan dieksekusi
+
+Pernyataan if
+Gunakan ifpernyataan untuk menentukan blok kode C++ yang akan dieksekusi jika kondisinya adalah true.
+
+Sintaksis
+if (condition) {
+  // block of code to be executed if the condition is true
+}

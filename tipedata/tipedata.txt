@@ -1,0 +1,10 @@
+Tipe Data Dasar
+Tipe data menentukan ukuran dan jenis informasi yang akan disimpan oleh variabel.
+1. data type boolean - size 1 byte
+2. data type char - size 1 byte
+3. data type int - size 2 atau 4 bytes
+4. data type float - size 4 bytes
+5. data type double - size 8 bytes
+
+float melawan double
+Ketepatan nilai floating point menunjukkan berapa digit yang dapat dimiliki nilai tersebut setelah titik desimal. Ketepatan floathanya enam atau tujuh digit desimal, sedangkan doublevariabel memiliki ketepatan sekitar 15 digit. Oleh karena itu lebih aman digunakan doubleuntuk sebagian besar perhitungan.

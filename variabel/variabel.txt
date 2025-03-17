@@ -1,0 +1,33 @@
+a.) Variabel adalah wadah untuk menyimpan nilai data.
+Dalam C++, ada berbagai jenis variabel (didefinisikan dengan kata kunci berbeda), misalnya:
+1. int- menyimpan bilangan bulat (bilangan bulat), tanpa desimal, seperti 123 atau -123
+2. double- menyimpan angka floating point, dengan desimal, seperti 19,99 atau -19,99
+3. char- menyimpan karakter tunggal, seperti 'a' atau 'B'. Nilai char diapit oleh tanda kutip tunggal
+4. string- menyimpan teks, seperti "Halo Dunia". Nilai string diapit oleh tanda kutip ganda
+5. bool- menyimpan nilai dengan dua status: benar atau salah
+
+b.) Mendeklarasikan (Membuat) Variabel
+Untuk membuat variabel, tentukan jenisnya dan tetapkan nilainya.
+Sintaksis :
+type variableName = value;
+
+Di mana type adalah salah satu tipe C++ (seperti int), dan variableName adalah nama variabel (seperti x atau myName ). 
+Tanda sama dengan digunakan untuk menetapkan nilai ke variabel.
+
+
+c.) Aturan umum untuk penamaan variabel adalah:
+1. Nama dapat berisi huruf, angka, dan garis bawah
+2. Nama harus dimulai dengan huruf atau garis bawah (_)
+3. Nama bersifat peka huruf besar/kecil ( myVardan myvarmerupakan variabel yang berbeda)
+4. Nama tidak boleh mengandung spasi atau karakter khusus seperti !, #, %, dll.
+5. Kata-kata yang dicadangkan (seperti kata kunci C++, seperti int) tidak dapat digunakan sebagai nama
+
+d.) Catatan Tentang Konstanta
+Saat Anda mendeklarasikan variabel konstan, variabel tersebut harus diberi nilai.
+Contoh seperti ini:
+
+const int minutesPerHour = 60;
+
+Namun, hal ini tidak akan berhasil :
+const int minutesPerHour;
+minutesPerHour = 60; // error
